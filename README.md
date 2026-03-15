@@ -484,4 +484,94 @@ Minimum cost climbing stairs
 
 Maximum product subarray
 
-Hi
+
+
+
+
+
+
+
+
+
+
+
+
+# Find largest element
+
+
+# Find smallest element
+
+list=list(map(int,input().split()))
+smallest=list[0]
+for i in list:
+    if i<smallest:
+        smallest=i
+print(smallest)
+
+1 2 3 4 5
+1 
+# Reverse array
+
+arr=list(map(int,input().split()))
+n=len(arr)
+rev=[]
+for i in range(n-1,-1,-1):
+    rev.append(arr[i])
+print(rev)
+
+1 2 3 3 4 5
+[5, 4, 3, 2 , 3, 1]
+
+# Rotate array left
+
+Rotate array right
+
+Second largest element
+
+Remove duplicates
+
+Move zeros to end
+
+Merge two arrays
+
+Find intersection
+
+Find union of arrays
+
+Find missing number
+
+Find duplicates
+
+Maximum subarray sum (Kadane’s)
+
+Find equilibrium index
+
+Rearrange positive and negative
+
+Count pairs with given sum
+
+Product of array except self
+
+Leaders in array
+
+Stock buy and sell
+
+Trapping rain water
+
+Maximum product subarray
+
+Subarray with given sum
+
+Longest consecutive sequence
+
+Rotate matrix
+
+Spiral matrix
+
+Search element in matrix
+
+Find majority element
+
+Find kth largest element
+
+Minimum jumps to reach end
